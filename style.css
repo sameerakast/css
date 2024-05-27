@@ -1,32 +1,4 @@
-/* Card Container */
-.card-container {
-  width: 300px;
-  height: 200px;
-  background-color: #f0f0f0;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Card Title */
-.card-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-/* Card Details */
-.card-details {
-  font-size: 16px;
-}
-
-/* Card PAN */
-.card-pan {
-  font-size: 18px;
-  margin-top: 10px;
-  color: #555;
+ body {
+    font-family: Roboto, sans-serif;
+    color: green;
 }
