@@ -1,4 +1,69 @@
- body {
-    font-family: Roboto, sans-serif;
-    color: green;
+@font-face {
+  font-family: "Aeonik Pro";
+  src: local("sans-serif");
+  src: url("/public/fonts/aeonik-pro/AeonikPro-Regular.woff2") format("woff2"),
+    url("/public/fonts/aeonik-pro/AeonikPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-weight: 400;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+#card-data {
+  width: 400px;
+  margin: 10px auto;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(23, 23, 23);
+  color: white;
+}
+
+#pan-div,
+#expiry-div,
+#cvv-div {
+  display: flex;
+}
+
+#pan-p,
+#expiry-p,
+#cvv-p {
+  font-weight: bold;
+  color: rgb(162, 162, 162);
+}
+
+#pan-value,
+#expiry-value,
+#cvv-value {
+  color: white;
+  display: block;
+  margin-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+span {
+  font-weight: normal;
+}
+
+#pan-div {
+  justify-content: space-between;
+  align-items: center;
+}
+
+i {
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 8px;
+}
+
+i:hover {
+  background-color: rgb(33, 33, 38);
+  border-radius: 5px;
 }
